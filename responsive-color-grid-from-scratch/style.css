@@ -1,0 +1,162 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#row-1{
+    grid-column: 1/5;
+    background-color: #F5C6D6; 
+    padding:80px;
+    border-bottom: 10px solid white;
+}
+
+
+#box-2{
+    background-color:#EE2E84;
+    grid-column:1/5;
+    border-bottom: 10px solid white;
+    padding: 80px;
+}
+
+#box-3{
+    background-color:#EE2E84;
+    grid-column:1/5;
+    border-bottom: 10px solid white;
+    padding: 80px;
+}
+
+#box-4{
+    background-color:#EE2E84;
+    grid-column:1/5;
+    border-bottom: 10px solid white;
+    padding: 80px;
+}
+
+#box-5{
+    background-color:#EE2E84;
+    grid-column:1/5;
+    padding: 80px;
+    border-bottom: 10px solid white;
+}
+
+#box-6{
+    background-color:#85CFD8;
+    grid-column:1/5;
+    padding: 80px;
+    border-bottom: 10px solid white;
+
+}
+
+#box-7{
+    background-color:#85CFD8;
+    grid-column: 1/ 5;
+    padding:80px;
+    border-bottom: 10px solid white;
+}
+
+#box-8{
+    background-color:#8DC63F;
+    grid-column: 1/5;
+    padding: 100px;
+    border-bottom:10px solid white;
+
+}
+
+#box-9{
+    background-color:#E76E34;
+    grid-column: 1/5;
+    padding: 100px;
+    
+}
+
+
+@media only screen and (min-width:768px){
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#row-1{
+    grid-column: 1/5;
+    background-color: #F5C6D6; 
+    padding:80px;
+    border-bottom: 10px solid white;
+}
+
+
+#box-2{
+    background-color:#EE2E84;
+    grid-column:1/2;
+    border-right: 10px solid white;
+    padding: 80px;
+}
+
+#box-3{
+    background-color:#EE2E84;
+    grid-column:2/3;
+    border-right: 10px solid white;
+    padding: 80px;
+}
+
+#box-4{
+    background-color:#EE2E84;
+    grid-column:3/4;
+    border-right: 10px solid white;
+    padding: 80px;
+}
+
+#box-5{
+    background-color:#EE2E84;
+    grid-column:4/5;
+    padding: 80px;
+}
+
+#box-6{
+    background-color:#85CFD8;
+    grid-column:1/3;
+    border-right: 10px solid white;
+    padding: 80px;
+    border-top: 10px solid white;
+
+}
+
+#box-7{
+    background-color:#85CFD8;
+    grid-column: 3/ 5;
+    padding:80px;
+    border-top: 10px solid white;
+}
+
+#box-8{
+    background-color:#8DC63F;
+    grid-column: 1/4;
+    padding: 100pxpx;
+    border-top:10px solid white;
+
+}
+
+#box-9{
+    background-color:#E76E34;
+    grid-column: 4/5;
+    padding: 100px;
+    border-left:10px solid white;
+    border-top:10px solid white;
+}
+
+}
+
+
+
+
+
+

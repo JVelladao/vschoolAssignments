@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+
+    
+}
+
+#list{
+   
+    display:flex;
+    flex-direction: column;
+    width: 30px;
+    
+    
+}
+
+#list li{
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
