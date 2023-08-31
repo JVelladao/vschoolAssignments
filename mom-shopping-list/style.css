@@ -1,20 +1,20 @@
 body{
-    background-color: blueviolet;
+    background-color: blanchedalmond;
 
     
 }
 
 #list{
-   
     display:flex;
-    flex-direction: column;
-    width: 30px;
-    
+   flex-direction:column;
+   align-items: flex-start;
+   justify-content: space-evenly;
     
 }
 
-#list li{
-    flex-direction: row;
+#list1{
+    display:flex;
+    align-items:flex-start;
 }
 
 
