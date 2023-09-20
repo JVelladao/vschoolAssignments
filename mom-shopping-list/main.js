@@ -1,36 +1,44 @@
+//creating form variable using name property 
 const form = document.mom
 
 //submit event-by default-refreshes your page.
 
-const li3 =document.createElement('button');
-li3.textContent="X";
+// const li3 =document.createElement('button');
+// li3.textContent="X";
 
-
+// submit event listener 
 form.addEventListener("submit",function(event){
    
-    event.preventDefault();     
+    event.preventDefault(); 
+
     const groceryInput = form.grocery.value;  
     form.grocery.value = "";  
     
-
+   // create and append a li as a child to the listElement
     const li2 = document.createElement('li');
 
     let listElement = document.getElementById('list')
     console.log('list children', listElement.children)
 
     li2.textContent= "  " + groceryInput;
-   document.getElementById("list").append(li2);
+    listElement.appendChild(li2);
     // Add classname
 
 
 
    const button =document.createElement('button');
    button.textContent="X";
-   li2.prepend(button);
+   li2.appendChild(button);
+
+   
 
 
-   list.addEventListener("click", function(event){
-     this.removeChild(li2);
+   button.addEventListener("click", function(event){
+      console.log("delete test");
+      li2.remove();
+
+      //li2.remove();
+     //this.removeChild(li2);
    });
 
 
