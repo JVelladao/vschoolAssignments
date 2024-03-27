@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Travel Form</title>
+    <link href="style.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+
+    <h1 id="titleh1">Travel Form</h1>
+
+    <div id="onlydiv">
+
+        <form name="myForm">
+
+            <input id="yo" name="firstname" type="text" placeholder="first name"/>
+            <input id="yo1" name="lastname"type="text" placeholder="last name" />
+        
+            <input id="yo3" type="number" placeholder="age" />
+
+            Male: <input id="r1" type="radio" name="gender" value="male" />
+            Female: <input id= "r2" type="radio" name="gender" value="female" />
+
+            Do you have any dietary restrictions? Pick what applies.
+        
+            Kosher: <input type="checkbox" name="restricted" value="Kosher"/>
+            Veggieonly: <input type="checkbox" name="restricted" value="Veggie"/>
+            Meatetarian: <input type="checkbox" name="restricted" value="Meatetarian"/>
+            Fisheateronly: <input type="checkbox" name="restricted" value="Fisheateronly"/>
+
+            Where is your destination?
+        
+            <select name="destination" required>
+                <option value="Sparta">Sparta</option>
+                <option value="Melos">Melos</option>
+                <option value="rome">Rome</option>
+            </select>
+
+            <button id="button">Submit</button>
+    
+    
+
+        
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

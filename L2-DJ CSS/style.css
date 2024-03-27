@@ -1,0 +1,104 @@
+#box1{
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    background-color:blanchedalmond;
+    align-items: center;
+    transition-property: all;
+    transition-duration: 1s ;
+    transition-timing-function: linear ;
+    transition-delay: 1s ;
+}
+
+#box1:hover{
+    background-color:green;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+#box2{
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    background-color:blue;
+    transition:all 1s linear;
+}
+
+#box2:hover{
+     background-color:yellow;
+     border: 20px dashed black;
+
+}
+
+#box3{
+
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    background-color:green;
+    transition:all 1s linear;
+}
+
+#box3:hover{
+    background-color:red;
+    border-radius: 50px;
+    border: 5px dashed black;
+    
+}
+
+
+#box4{
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    background-color:orangered;
+    transition:all 1s linear;
+}
+
+
+#box4:hover{
+    background-color:deepskyblue;
+    width:200px;
+    border-radius: 80px;
+    border: 5px solid black;
+    
+}
+
+
+
+
+#box5{
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    background-color:palevioletred;
+    transition:all 1s linear;
+}
+
+
+#box5:hover{
+    background-color:black;
+    border: 5px dashed whitesmoke;
+    margin:25px;
+    
+}
+
+
+#box6{
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    background-color:blanchedalmond;
+    transition:all 1s linear;
+}
+
+
+
+#box6:hover{
+    background-color:purple;
+    width:800px;
+    border: 5px solid black;
+    margin:10px;
+    
+}

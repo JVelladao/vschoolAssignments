@@ -1,0 +1,82 @@
+{
+    "appetizers": [
+
+        {
+            "name":"Spinache and Art dip",
+            "ingredients":[" spinache", "cream", "artechokes"],
+            "description":"here you have a delicious appetizer to satisfy your cravings in a healthy way. No seed oils"
+        },
+
+        {
+            "name":"Chips and Guacamole",
+            "ingredients":["Masa Chips", "Has Avocados", "lemon juice","cilantro","onions"],
+            "description":"The creamiest guac you'll ever have. No seed oils"
+
+        }
+
+     ],
+
+     "hot sandwiches":[
+
+        {
+            "name":"The Phily",
+            "ingredients":["steak", "cheese", "peppers","sour dough"],
+            "description":"Even Philadelphians will be jealous. No seed oils"
+        },
+
+        {
+            "name":"the Angelenio",
+            "ingredients":["Chicken", "Guacamole", "cucumbers","dutch crunch"],
+            "description":"Oh so sunny. No seed oils"
+        }
+     ],
+
+     "cold sandwiches":[
+
+        {
+            "name":"the Grecan",
+            "ingredients":["Lamb", "Olives", "Tomatos","dutch crunch"],
+            "description":"The leonidas. No seed oils"
+        },
+
+        {
+            "name":"the Turk",
+            "ingredients":["Kabab", "Kabuli", "cucumbers", "sour dough"],
+            "description":"The Hector. No seed oils"
+        }
+    ],
+
+    "desserts": [
+
+        {
+            "name":"Italian Ice Cream",
+            "ingredients":["cream", "gelato","Bennito"],
+            "description":"Lake como freshness. No seed oils"
+        },
+
+        {
+            "name":"German Ice Cream",
+            "ingredients":["Cream", "Schnitzel"],
+            "description":"Alpian excellence. No seed oils"
+        }
+
+    ],
+
+    "drinks": [
+
+        {
+            "name":"The Creamer",
+            "ingredients":["cream", "soda"],
+            "description":"I can't believe it's not a milkshake. No seed oils"
+        },
+
+        {
+            "name":"The Root",
+            "ingredients":["cream", "Rootbear"],
+            "description":"Better than your standard fare. No seed oils"
+        }
+
+    ]
+
+
+}
