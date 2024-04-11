@@ -1,11 +1,12 @@
-//import { useState } from 'react'
-import React from "react"
-import memesData from './memesData.js'
-import axios from "axios"
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 export default function Meme() {
   
 const [allMemeImages, setAllMemeImages] = React.useState([])
+
+
+
 
 React.useEffect(() => {
   axios.get("https://api.imgflip.com/get_memes")
@@ -19,6 +20,8 @@ const [meme, setMeme] = React.useState({
     randomImage: "http://i.imgflip.com/1bij.jpg"
   })
 
+  
+  const [savedMemes, setSavedMemes] = useState([]);
 
   function getMemeImage(){
     const memesArray = allMemeImages 
@@ -39,7 +42,12 @@ function handleChange(event){
        }))
    }
 
-//________________________________________________________________________________________________________________________________________________
+
+   const saveMeme = () => {
+    setSavedMemes((prevMemes) => [...prevMemes, meme]);
+  };
+   
+
 
   return (
     
@@ -72,6 +80,12 @@ function handleChange(event){
               >
                 Get New Meme Image
               </button>
+
+              <button onClick={saveMeme}>
+              Save Meme
+              </button>
+
+
               
           </div>
           
@@ -81,10 +95,30 @@ function handleChange(event){
             <h2 className="meme--text bottom">{meme.bottomText}</h2>
             
           </div>
+
+          <div >
+            <h2>Saved Memes</h2>
+            {savedMemes.map((savedMeme, index) => (
+           <div key={index} className="meme">
+            <img src={savedMeme.randomImage} className="meme--image" />
+            <h2 className="meme--text top">{savedMeme.topText}</h2>
+            <h2 className="meme--text bottom">{savedMeme.bottomText}</h2>
+          </div>
+))}
+
+
+        </div>
+          
+
+
+
+
+
+
+
       </main>
   
   )
 }
 
 
-// https://api.imgflip.com/get_memes"
